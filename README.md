@@ -4,7 +4,6 @@
 
 ## EMERGENCY ROOM DASHBOARD
 
-### Dashboard Link : file:///C:/Users/nihar/Downloads/Emergency%20room.pdf
 
 ## Problem Statement
 
