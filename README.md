@@ -11,9 +11,7 @@ This dashboard provides hospitals with insights into emergency room operations, 
 
 ### Key Observations:
 
-- Patient Satisfaction: 
-        
-        Moderate satisfaction levels with an average score of 4.99/10, indicating room for improvement in service delivery.
+- Patient Satisfaction: Moderate satisfaction levels with an average score of 4.99/10, indicating room for improvement in service delivery.
 
 - Average Wait Time:  
 
