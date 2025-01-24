@@ -13,13 +13,9 @@ This dashboard provides hospitals with insights into emergency room operations, 
 
 - Patient Satisfaction: Moderate satisfaction levels with an average score of 4.99/10, indicating room for improvement in service delivery.
 
-- Average Wait Time:  
+- Average Wait Time:  35.2 minutes, necessitating measures to reduce delays in patient processing.
 
-        35.2 minutes, necessitating measures to reduce delays in patient processing.
-
-- Admission Patterns: 
-
-       A nearly equal split between admitted and non-admitted patients (49.97% and 50.03%, respectively).
+- Admission Patterns: A nearly equal split between admitted and non-admitted patients (49.97% and 50.03%, respectively).
 
 
 ###  Dashboard Views
@@ -28,11 +24,15 @@ The Monthly View provides a detailed snapshot of emergency room performance on a
 
 - Metrics Included:
 
-        Number of patients treated, Average wait time per month,Monthly patient satisfaction scores, Admission rates split by admitted and not admitted.
+      Number of patients treated
+      Average wait time per month
+      Monthly patient satisfaction scores
+      Admission rates are split by admitted and not admitted
 
 - Visualizations:
       
-      Line charts for time-based trends, Bar charts to compare admission rates and patient demographics.
+      Line charts for time-based trends
+      Bar charts to compare admission rates and patient demographics
 
 ![Image](https://github.com/user-attachments/assets/ff2ca406-ea8c-4571-854d-6965dd702f1b)
 
@@ -43,15 +43,15 @@ This view offers a high-level summary of all data for the 24-month period, enabl
 
 - Metrics Included:
       
-      Total number of patients,
-      Overall averages for wait time and satisfaction scores,
-      Percentages of patients seen within the target time.
+      Total number of patients
+      Overall averages for wait time and satisfaction scores
+      Percentages of patients seen within the target time
 
 - Visualizations:
       
-      Summary cards for key metrics,
-      Pie charts for gender and race distributions,
-      Bar charts for department referrals and age group segmentation.
+      Summary cards for key metrics
+      Pie charts for gender and race distributions
+      Bar charts for department referrals and age group segmentation
 
 ![Image](https://github.com/user-attachments/assets/84f4d9be-0205-4966-9d67-5bab7ad49f22)
 
@@ -61,14 +61,14 @@ The Patient Details View drills down into individual patient records, making it 
 
 - Fields Displayed:
        
-       Patient demographics (age, gender, and race),
-       Admission status and referral department,
-       Wait times for each patient.
+       Patient demographics (age, gender, and race)
+       Admission status and referral department
+       Wait times for each patient
 
 - Use Cases:
       
-      Investigating outliers or specific complaints,
-      Analyzing referral trends and demographic details.
+      Investigating outliers or specific complaints
+      Analyzing referral trends and demographic details
 
 ![Image](https://github.com/user-attachments/assets/5b2a7b0c-303c-41cc-8542-feb20c2f13c9)
 
@@ -78,16 +78,16 @@ This view provides actionable insights and recommendations derived from the data
 
 - Insights Provided:
      
-      High-demand periods (busiest days and hours),
-      Areas needing improvement (satisfaction and wait times),
-      Departmental trends (most referred departments).
+      High-demand periods (busiest days and hours)
+      Areas needing improvement (satisfaction and wait times)
+      Departmental trends (most referred departments)
 
 - Purpose:
       
       Serve as a summary for stakeholders to quickly understand key challenges and areas for improvement.
 
 - Visualization:
-      Text-based analysis supported by summary visuals.
+      Text-based analysis supported by summary visuals
 
 ![Image](https://github.com/user-attachments/assets/20599321-9c69-450e-9ba1-b4597ec74086)
 
@@ -96,8 +96,8 @@ This view provides actionable insights and recommendations derived from the data
 ### Steps followed 
 
 ### Data Preparation
-1. Data Loading : Imported a 24-month emergency room dataset into Power BI.
-2. Data Profiling : Conducted data quality checks in Power Query Editor:
+1. Data Loading: Imported a 24-month emergency room dataset into Power BI.
+2. Data Profiling: Conducted data quality checks in Power Query Editor:
 
        Activated Column Quality, Column Distribution, and Column Profile options.
 
@@ -111,7 +111,7 @@ This view provides actionable insights and recommendations derived from the data
  - Added slicers for filtering by Age Group, Gender, Race, Referral Department, and Admission Status.
 - Used card visuals to display :
 
-        Average wait time ,Patient satisfaction score , Percentage of patients seen within 30 minutes.
+        Average wait time, Patient satisfaction score, and Percentage of patients seen within 30 minutes.
 - Created bar charts to represent:
 
          Patient count by age group
@@ -154,7 +154,7 @@ This view provides actionable insights and recommendations derived from the data
       Male: 50.94%, Female: 48.81%
 - Race Distribution:
 
-      Largest racial group: White (2571 patients).
+      The largest racial group: White (2571 patients).
 #### 2. Operational Metrics
 - Satisfaction Scores:
 
